@@ -9,7 +9,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns="http://www.loc.gov/MARC21/slim"  exclude-result-prefixes="dc dcterms oai_dc">
 
-    <xsl:import href="https://raw.githubusercontent.com/jvinke3/OAIDCtoMARC21XML_TARO/refs/heads/main/UNIMARCslimUtils.xsl"/>
+    
     <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 
 
