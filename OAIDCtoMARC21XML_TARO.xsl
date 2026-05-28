@@ -70,7 +70,7 @@
                             <xsl:with-param name="field" select="'100'" />
                             <xsl:with-param name="ind1" select = "'1'" />
                             <xsl:with-param name="ind2" select = "'0'" />
-                            <xsl:with-param name="type" select="'author'" />
+                            <xsl:with-param name="type" select="'collection creator'" />
                         </xsl:call-template>
                     </xsl:when>
                     <xsl:otherwise>
@@ -80,7 +80,7 @@
                                 <xsl:with-param name="field" select="'700'" />
                                 <xsl:with-param name="ind1" select = "'1'" />
                                 <xsl:with-param name="ind2" select = "'0'" />
-                                <xsl:with-param name="type" select="'author'" />
+                                <xsl:with-param name="type" select="'collection creator'" />
                             </xsl:call-template>
                         </xsl:if>
                     </xsl:otherwise>
